@@ -9,10 +9,20 @@ Sebuah script eksperimental berbasis Python untuk mengekstrak dan mengunduh aset
 - *Logging system* yang terstruktur.
 - Sanitasi nama file untuk menghindari *error* pada sistem operasi.
 
+## Cara Penggunaan
+Buka file main.py menggunakan teks editor pilihan Anda. Modifikasi variabel TARGET_URL dan CSS_SELECTOR sesuai dengan elemen target dari website yang ingin di-scrape.
+• Setelah selesai mengatur target, jalankan program di terminal dengan perintah:
+/Bash
+• python main.py
+
+
+
+Setelah selesai mengatur target, jalankan program di terminal dengan perintah:
+
 ## Cara Instalasi
 
 1. Pastikan Python sudah terinstal di sistem Anda.
 2. *Clone* repositori ini:
    ```bash
-   git clone [https://github.com/USERNAME-ANDA/visual-asset-scraper.git](https://github.com/USERNAME-ANDA/visual-asset-scraper.git)
-   cd visual-asset-scraper
+   git clone [https://github.com/fauzan-ridani/Visual-Asset-Scraper.git](https://github.com/fauzan-ridani/Visual-Asset-Scraper.git)
+   cd Visual-Asset-Scraper
