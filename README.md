@@ -26,3 +26,9 @@ Setelah selesai mengatur target, jalankan program di terminal dengan perintah:
    ```bash
    git clone [https://github.com/fauzan-ridani/Visual-Asset-Scraper.git](https://github.com/fauzan-ridani/Visual-Asset-Scraper.git)
    cd Visual-Asset-Scraper
+
+   
+## Saran Eksekusi
+Jika target web yang ingin kamu ekstrak ternyata banyak menggunakan JavaScript untuk memuat gambarnya secara dinamis, arsitektur `Requests` di atas tidak akan bisa membacanya.
+
+<FollowUp label="Mau kutambahkan dukungan Selenium di kode ini?" query="Bagaimana cara mengintegrasikan Selenium WebDriver ke dalam arsitektur scraper ini agar bisa mengekstrak gambar dari web yang dirender dengan JavaScript?"/>
